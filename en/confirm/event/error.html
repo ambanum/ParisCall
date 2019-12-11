@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title> —  Paris Call</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/assets/images/favicon.png">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body class="page error-page by-email-page">
+
+  
+
+
+
+
+
+<nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="tabs is-fullwidth is-hidden-desktop">
+      <ul>
+        <li class="">
+          <a href="/en/" aria-label="Home"><i class="icon icon-home" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="">
+          <a href="/en/principles">The 9 principles</a>
+        </li>
+        <li class="">
+          <a href="/en/call">The call</a>
+        </li>
+        <li class="">
+          <a href="/en/supporters">The supporters</a>
+        </li>
+        <li class="">
+          <a href="/en/support">Support the call</a>
+        </li>
+      </ul>
+      <ul>
+        
+        <li class="lang-item">
+          <a href="/en/confirm/event/error" class="is-active">
+            English
+          </a>
+        </li>
+        
+        <li class="lang-item">
+          <a href="/fr/confirm/event/error" class="">
+            Français
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    <div id="navbar-menu" class="navbar-menu is-size-5 is-hidden-touch">
+      <div class="navbar-start">
+        <a class="navbar-item "
+          href="/en/">Home</a>
+
+        <a class="navbar-item "
+          href="/en/principles">The 9 principles</a>
+
+        <a class="navbar-item "
+          href="/en/call">The call</a>
+      </div>
+
+      <div class="navbar-center is-hidden-touch">
+        <a href="/en/">
+          <img class="logo" alt="Paris Call" src="/assets/images/logo-circle-en.png" />
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item "
+          href="/en/supporters">The supporters</a>
+
+        <a class="navbar-item button is-primary is-rounded is-medium"
+          href="/en/support">Support the call</a>
+
+        <div class="dropdown is-right is-hoverable">
+          <div class="dropdown-trigger">
+            <button class="button is-size-5" aria-haspopup="true" aria-controls="lang-dropdown-menu">
+              <span>en</span>
+              <span class="icon is-small">
+                <i class="icon icon-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
+            <div class="dropdown-content">
+              
+              <a href="/en/confirm/event/error" class="dropdown-item is-active">
+                English
+              </a>
+              
+              <a href="/fr/confirm/event/error" class="dropdown-item ">
+                Français
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-title">
+
+    <h1>Something went wrong</h1>
+<h2>Your event could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:contact@pariscall.international?subject=Cannot%20confirm%20my%20email">send us an email</a>.</h2>
+
+
+  </div>
+</div>
+
+
+
+
+
+  <footer class="footer">
+  <div class="container has-text-centered">
+    <div class="columns">
+      <div class="column is-full">
+        <a href="https://github.com/ambanum/ParisCall">
+        Source code
+        </a>
+        <span class="footer__dot">∙</span>
+        <a href="mailto:contact@pariscall.international">
+        Contact us
+        </a>
+        <span class="footer__dot">∙</span>
+        
+        <a href="/en/tracking">
+        Analytics and privacy
+        </a>
+        <span class="footer__dot">∙</span>
+        
+        <a href="/en/legal-notice">
+        Legal notice
+        </a>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-full">
+        <a href="/">
+          <img class="footer__logo" alt="Paris Call"
+            src="/assets/images/full-logo-en.png" />
+        </a>
+      </div>
+    </div>
+    <div class="columns">
+        <div class="column is-full">
+          
+          
+          <a href="/en/confirm/event/error">
+            English
+          </a>
+          
+          <span class="footer__dot">∙</span>
+          <a href="/fr/confirm/event/error">
+            Français
+          </a>
+          
+        </div>
+      </div>
+  </div>
+</footer>
+
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+  <script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(['setDomains', ['*.diplomatie.fr', 'ambanum.github.io']]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  _paq.push([function() {
+    var self = this;
+    function getOriginalVisitorCookieTimeout() {
+      var now = new Date(),
+        nowTs = Math.round(now.getTime() / 1000),
+        visitorInfo = self.getVisitorInfo();
+      var createTs = parseInt(visitorInfo[2]);
+      var cookieTimeout = 13 * 30 * 24 * 60 * 60; // 13 months in seconds
+      var originalTimeout = createTs + cookieTimeout - nowTs;
+      return originalTimeout;
+    }
+    this.setVisitorCookieTimeout(getOriginalVisitorCookieTimeout());
+  }]);
+  (function() {
+    var u='//stats.data.gouv.fr/';
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '98']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><img src="https://stats.data.gouv.fr/matomo.php?idsite=98&rec=1" style="border:0;" alt="" /></noscript>
+
+
+</body>
+</html>

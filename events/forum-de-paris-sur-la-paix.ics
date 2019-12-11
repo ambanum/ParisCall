@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pariscall.international//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:2019111120191113Forum-de-Paris-sur-la-paix
+SUMMARY:Forum de Paris sur la paix
+DESCRIPTION:As the crisis of the international system worsens, global cooperation is slowing with states competingand expanding military expenditures. International norms and human rights are disregarded, questioninginternational justice. Globalization lacks regulation, the Internet is dominated by abusivecorporations, propagandists and hackers, and the race against global warming carries on.The Paris Peace Forum was created to counter these tendencies and to convene all those among States andcivil society that believe in collective action, multilateralism and the good stewardship of commonpublic goods to address common challenges and maintain peace.
+LOCATION:La Grande Halle de La Villette\, Paris\, France
+CLASS:PUBLIC
+DTSTART:20191111
+DTEND:20191113
+DTSTAMP:20191211
+URL:https://parispeaceforum.org
+END:VEVENT
+
+END:VCALENDAR
