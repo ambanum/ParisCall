@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pariscall.international//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:2020013120200302Paris-Call-Community-Consultation
+SUMMARY:Paris Call Community Consultation
+DESCRIPTION:Announced at the International Cybersecurity Forum (ICF) in Lille, France, on January 30, 2020, by the French Ambassador for Digital Affairs, this consultation aims at better understanding the concerns and interests of the Paris Call community in order to better relay them on the international stage. We look forward to receiving your contributions!
+LOCATION:https://ambanum.typeform.com/to/cBjA57\, \, 
+CLASS:PUBLIC
+DTSTART:20200131
+DTEND:20200302
+DTSTAMP:20200131
+URL:
+END:VEVENT
+
+END:VCALENDAR

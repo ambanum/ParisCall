@@ -44,6 +44,19 @@ END:VEVENT
 
 
 BEGIN:VEVENT
+UID:2020013120200302Paris-Call-Community-Consultation
+SUMMARY:Paris Call Community Consultation
+DESCRIPTION:Announced at the International Cybersecurity Forum (ICF) in Lille, France, on January 30, 2020, by the French Ambassador for Digital Affairs, this consultation aims at better understanding the concerns and interests of the Paris Call community in order to better relay them on the international stage. We look forward to receiving your contributions!
+LOCATION:https://ambanum.typeform.com/to/cBjA57\, \, 
+CLASS:PUBLIC
+DTSTART:20200131
+DTEND:20200302
+DTSTAMP:20200131
+URL:
+END:VEVENT
+
+
+BEGIN:VEVENT
 UID:2020013020200130Paris-Call-@FIC:-Building-on-the-momentum-of-the-community-to-move-forward
 SUMMARY:Paris Call @FIC: Building on the momentum of the community to move forward
 DESCRIPTION:Join us for a side event on the Paris Call for Trust and Security in Cyberspace during the International Cybersecurity Forum (FIC) in Lille, France. The French Ambassador for Digital Affairs will discuss the approach put in place by France to promote a broad approach to the regulation of cyberspace and build on the dynamism of the Paris Call community, while negotiations are underway at the United Nations.In order to attend, please send an email to contact@pariscall.international and get your FIC access pass on www.forum-fic.com.
