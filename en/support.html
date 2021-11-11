@@ -113,32 +113,20 @@
 </div>
 <section class="section is-small bg-blue-100">
   <div class="container content is-size-5">
-    <div class="typeform-widget" data-url="https://ambanum.typeform.com/to/qjm1oJ" data-transparency="100"
-      data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;">
+    <div data-tf-widget="qjm1oJ" style="width:100%;height:500px;">
       <div class="adp-spinner-wrapper">
         <div class="adp-spinner"></div>
       </div>
     </div>
     <script>
-      (function () {
-        var qs, js, q, s, d = document,
-          gi = d.getElementById,
-          ce = d.createElement,
-          gt = d.getElementsByTagName,
-          id = "typef_orm",
-          b = "https://embed.typeform.com/";
-        if (!gi.call(d, id)) {
-          js = ce.call(d, "script");
-          js.id = id;
-          js.src = b + "embed.js";
-          q = gt.call(d, "script")[0];
-          q.parentNode.insertBefore(js, q)
-        }
-      })()
-
+      document.addEventListener("DOMContentLoaded", function(){
+          const script = document.createElement('script');
+          script.src = "https://embed.typeform.com/next/embed.js";
+          document.body.appendChild(script);
+      });
     </script>
     <p class="content has-text-centered is-size-7">
-      If the registration form does not appear, you can still <a href="https://ambanum.typeform.com/to/qjm1oJ">register with this form.</a>
+      If the registration form does not appear, you can still <a href="">register with this form.</a>
     </p>
   </div>
 </section>
@@ -152,14 +140,14 @@
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
-      <div class="counter__number">79</div>
+      <div class="counter__number">80</div>
       <footer class="counter__footer"><strong>States</strong></footer>
     </div>
   </div>
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
-      <div class="counter__number">35</div>
+      <div class="counter__number">36</div>
       <footer class="counter__footer"><strong>Public authorities</strong>and local governments</footer>
     </div>
   </div>
@@ -217,6 +205,12 @@
         <a href="/en/legal-notice">
         Legal notice
         </a>
+        <span class="footer__dot">∙</span>
+        <a href="https://form.typeform.com/to/Gqi5uB"
+            data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="1"
+            target="_blank" id="suggestEvent">
+            Suggest an event
+          </a>
       </div>
     </div>
     <div class="columns">
